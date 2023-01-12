@@ -41,6 +41,7 @@ class Hotel {
     let profitability1 = (hotel1.tenantNumber / hotel1.roomCount) * 100;
     let profitability2 = (hotel2.tenantNumber / hotel2.roomCount) * 100;
     let profitability3 = (hotel3.tenantNumber / hotel3.roomCount) * 100;
+    return profitability1;
   }
 }
 
